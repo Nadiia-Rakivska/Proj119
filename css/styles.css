@@ -1,0 +1,259 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --third-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: var(--font-family);
+  color: #22343d;
+  background-color: #FFFFFF;
+}
+button {
+    cursor: pointer;
+    border: none;
+    outline: transparent;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 26px;
+
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  /* font-family: var(--font-family); */
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 93%;
+    color: #173a56;
+}
+
+.logo-img {}
+
+.navigation {
+  display: flex;
+  gap: 73px;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+gap: 21px;
+}
+.navigation-list:first {
+  gap: 30px;
+}
+
+
+.navigation-item {}
+
+.item {
+  display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #22343d;
+}
+.item.current {
+font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  color: #22343d;
+}
+
+.item-btn {
+border: none;
+  border-radius: 4px;
+  min-width: 105px;
+  height: 42px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+background-color: #02897a;
+  color: #fff;
+  padding: 9px 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.item-btn:hover,
+.item-btn:focus {
+  border: 1px solid #bcd0e5;
+ color: #173a56;
+ background-color: #fff;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container-title {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.container-descr {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  padding-right: 35px;
+ 
+}
+
+.container-descr-title {
+  font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #22343d;
+    margin-bottom: 18px;
+}
+
+.container-descr-p {
+  font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #22343d;
+    margin-bottom: 45px;
+}
+
+.container-descr-list {
+  display: flex;
+  gap: 30px;
+}
+
+.container-descr-item {
+  display: flex;
+  align-items: center;
+}
+
+.button-title {
+font-weight: 700;
+  font-size: 16px;
+
+
+    border-radius: 4px;
+      width: 178px;
+      height: 53px;
+    
+}
+
+.descr-item-a {
+  display: flex;
+align-items: center;
+font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+}
+
+.descr-item-a-img {
+    margin-right: 8px;
+}
+
+.title-img {}
+
+
+.container-products {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.container-products-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    max-width: 539px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation-list-products {
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.list-item {
+  width: 255px;
+}
+
+.list-item-sp {
+  background: #02897a;
+  border-radius: 19px;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+
+}
+
+.list-item-sp-img {}
+
+.list-item-title {
+  font-weight: 600;
+    font-size: 22px;
+    color: #22343d;
+    margin-bottom: 13px;
+}
+
+.list-item-descr {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    width: 255px;
+}
+.list-item-sp-s {
+  background-color: #4d8dff;
+}
+.list-item-sp-t {
+  background-color: #740a76;;
+}
+.list-item-sp-f {
+  background-color: #f03e3d;
+}
+.product-btn {
+ margin: 0 auto;
+}
