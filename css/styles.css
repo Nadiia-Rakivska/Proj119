@@ -68,14 +68,18 @@ a {
 
 .navigation-list {
   display: flex;
-gap: 21px;
+  
+gap: 28px;
+
 }
-.navigation-list:first {
-  gap: 30px;
+.nav-list {
+  gap: 21px;
 }
 
 
-.navigation-item {}
+.navigation-item {
+
+}
 
 .item {
   display: inline-block;
@@ -83,12 +87,14 @@ gap: 21px;
     font-size: 16px;
     line-height: 175%;
     color: #22343d;
+    padding-left: 1px;
+      padding-right: 1px;
+      /* transition: font-weight 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-.item:hover {
+.item:hover,
+.item:focus {
 font-weight: 600;
-  font-size: 16px;
-  line-height: 175%;
-  color: #22343d;
+  padding: 0;
 }
 
 .item-btn {
@@ -104,8 +110,7 @@ border: none;
     text-align: center;
 background-color: #02897a;
   color: #fff;
- 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border 250ms cubic-bezier(0.4, 0, 0.2, 1),
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
@@ -119,18 +124,7 @@ background-color: #02897a;
  color: #173a56;
  background-color: #fff;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 .container-title {
   display: flex;
   padding-top: 25px;
@@ -220,7 +214,8 @@ font-weight: 600;
 }
 
 .list-item {
-  width: 255px;
+ 
+  width: calc((100% - 90px) / 4);
 }
 
 .list-item-sp {
@@ -275,21 +270,48 @@ font-weight: 600;
 }
 
 .container-management-wrapper {
-
+padding-top: 41px;
+padding-bottom: 41px;
+padding-right: 84px;
 }
 
 .management-title {
   font-weight: 600;
     font-size: 16px;
     color: #22343d;
+    margin-bottom: 8px;
 }
 
 .management-title-main {
   font-weight: 700;
     font-size: 32px;
     color: #22343d;
+    margin-bottom: 25px;
 }
 
-.list-item-descr {}
+.management-item-descr {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    margin-bottom: 30px;
+}
 
-.management-title-descr {}
+.management-title-descr {
+  font-weight: 600;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    margin-bottom: 12px;
+}
+.management-item-descr-t {
+  margin-bottom: 25px;
+}
+.container-support {
+  padding-top: 50px;
+ padding-bottom: 50px;
+ display: flex;
+}
+.container-support-wrapper {
+  padding: 41px 35px 40px 84px;
+}
