@@ -78,13 +78,13 @@ gap: 21px;
 .navigation-item {}
 
 .item {
-  display: block;
+  display: inline-block;
     font-weight: 400;
     font-size: 16px;
     line-height: 175%;
     color: #22343d;
 }
-.item.current {
+.item:hover {
 font-weight: 600;
   font-size: 16px;
   line-height: 175%;
@@ -92,20 +92,26 @@ font-weight: 600;
 }
 
 .item-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 border: none;
   border-radius: 4px;
-  min-width: 105px;
+  width: 105px;
   height: 42px;
     font-weight: 600;
     font-size: 16px;
     text-align: center;
 background-color: #02897a;
   color: #fff;
-  padding: 9px 24px;
+ 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border 250ms cubic-bezier(0.4, 0, 0.2, 1),
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
+}
+.item-btn-next {
+  width: 113px;
 }
 .item-btn:hover,
 .item-btn:focus {
@@ -255,5 +261,35 @@ font-weight: 600;
   background-color: #f03e3d;
 }
 .product-btn {
+  
  margin: 0 auto;
+ width: 175px;
+ height: 53px;
 }
+
+
+.container-management {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.container-management-wrapper {
+
+}
+
+.management-title {
+  font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+}
+
+.management-title-main {
+  font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+}
+
+.list-item-descr {}
+
+.management-title-descr {}
