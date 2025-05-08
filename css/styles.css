@@ -848,3 +848,142 @@ color: #e0e0e0;
     letter-spacing: 0.01em;
     color: #252b42;
 }
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+
+
+.footer-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.logo-wrapper {
+margin-right: 146px;
+}
+
+.logo {
+  margin-bottom: 18px;
+}
+
+.logo-icon {}
+
+.footer-soc-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-soc-item {}
+
+.linc-soc {
+  width: 40px;
+  height: 40px;
+  background-color: #edfffc;
+  border-radius: 50%;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.soc-icon {
+stroke-width: 2px;
+  stroke: #02897a;
+ fill: #edfffc;
+}
+
+.facebook {}
+
+.twitter {}
+
+.footer-resourse {
+  margin-right: 153px;
+}
+
+.footer-main-descr {
+
+  font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.resourse-text {
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 219%;
+    color: #22343d;
+}
+
+.legal-stuff {
+  margin-right: 82px;
+}
+
+.footer-form {
+
+}
+
+.footer-form-descr {
+  max-width: 280px;
+  font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #22343d;
+    margin-bottom: 30px;
+}
+
+.phone-label {
+
+}
+
+.form-wrapper {
+   max-width: 325px;
+  height: 48px;
+    position: relative;
+      margin-bottom: 25px;
+}
+
+.phone-input { 
+height: 100%;
+width: 100%;
+border: 1px solid #bcd0e5;
+  border-radius: 4px;
+}
+.phone-input::placeholder {
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #02897a;
+    padding-left: 42px;
+}
+.phone-icon {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  fill: #02897a;
+}
+
+.item-btn {}
+
+.form-btn {
+  width: 131px;
+    height: 39px;
+}
+
+.footer-text {
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #22343d;
+    max-width: 395px;
+    margin-left: auto;
+    margin-right: auto;
+}

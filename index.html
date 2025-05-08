@@ -17,12 +17,14 @@
 <body>
   <header>
     <div class="container container-header">
-    <a class="logo" href="./index.html"><img class="logo-img" src="./images/logo.svg" alt="logo" width="40" height="36">Product</a>
+    <a class="logo" href="./index.html"><svg class="logo-icon" width="40" height="36">
+      <use href="./images/icons.svg#icon-logo"></use>
+    </svg>Product</a>
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item"><a class="item current" href="">Product</a></li>
         <li class="navigation-item"><a class="item"  href="">Pricing</a></li>
-        <li class="navigation-item"><a class="item" href="">Customers</a></li>
+        <li class="navigation-item"><a class="item" href="./costumers.html">Customers</a></li>
         <li class="navigation-item"><a class="item"  href="">Resources</a></li>
       </ul>
       <ul class="navigation-list nav-list">
@@ -83,26 +85,7 @@
       <button class="item-btn product-btn" type="button">SIGN UP NOW</button>
       </div>
     </section>
-    <!-- <section>
-      <h2>What Clients Say</h2>
-      <p>
-        Problems trying to resolve the conflict between 
-        the two major realms of Classical physics: Newtonian mechanics 
-      </p>
-      <ul>
-        <li>
-          <p>
 
-          </p>
-          <img src="./images/clients1.png" alt="Wahid Ari" width="50" height="50">
-          <h3>Wahid Ari</h3>
-          <p>Designer</p>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </section> -->
     <section class="management-section">
       <div class="container container-management">
       <div class="container-management-wrapper">
@@ -480,34 +463,74 @@ prototyping, marketing strategy, landing page, Ux/UI?
 </section>
   </main>
   <footer class="footer">
-    
-    <div class="container footer-container">
-      <a href="/"><img src="./images/logo.svg" alt="logo" width="40" height="36">Product</a>
-      <ul>
-        <li><img src="./images/instagram.svg" alt="instagram"></li>
-        <li><img src="./images/facebook.svg" alt="facebook"></li>
-        <li><img src="./images/twitter.svg" alt="twitter"></li>
+    <div class="container">
+    <div class="footer-container">
+     
+      <div class="logo-wrapper">
+      <a class="logo" href="/">
+        <svg class="logo-icon" width="40" height="36">
+          <use href="./images/icons.svg#icon-logo"></use>
+        </svg>
+        Product</a>
+      <ul class="footer-soc-list">
+        <li class="footer-soc-item">
+          <a class="linc-soc" href="">
+            <svg class="soc-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram-1"></use>
+            </svg>
+          </a>
+          
+        </li>
+        <li class="footer-soc-item">
+          <a class="linc-soc" href="">
+            <svg class="soc-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-soc-item">
+          <a class="linc-soc" href="">
+            <svg class="soc-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
       </ul>
     </div>
-    <div>
+    <div class="footer-resourse">
       <p class="footer-main-descr">Resource</p>
-      <p>About Us</p>
-      <p>Blog</p>
-      <p>Contact</p>
-      <p>FAQ</p>
+      <p class="resourse-text">About Us <br>
+      Blog <br>
+      Contact <br>
+      FAQ</p>
+   
     </div>
-    <div>
+    <div class="legal-stuff">
       <p class="footer-main-descr">Legal Stuff</p>
-      <p>Disclaimer</p>
-      <p>Financing</p>
-      <p>Privacy Policy</p>
+      <p class="resourse-text">Disclaimer <br>
+      Financing <br>
+      Privacy Policy</p>
+   
     </div>
-    <div>
-      <p  class="footer-main-descr">knowing you're always on the best energy deal.</p>
-      
-      <button type="button">Sign up Now</button>
+    <div class="footer-form">
+      <p  class="footer-form-descr">knowing you're always on the best energy deal.</p>
+      <form>
+        <label class="phone-label" for="phone"></label>
+        <div class="form-wrapper">
+          <input class="phone-input"
+          placeholder="Enter your phone number"
+           type="tel" id="phone">
+          <svg class="phone-icon" width="18" height="28">
+            <use href="./images/icons.svg#icon-mobile-screen"></use>
+          </svg>
+        </div>
+        
+      </form>
+      <button class="item-btn form-btn" type="button">Sign up Now</button>
     </div>
-    <p>Made With Love By Figmaland All Right Reserved </p>
+    </div>
+    <p class="footer-text">Made With Love By Figmaland All Right Reserved </p>
+    </div>
   </footer>
 </body>
 </html>
